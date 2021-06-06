@@ -1,0 +1,304 @@
+body{
+    background: transparent;
+    margin : 0%;
+    padding : 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3));
+}
+
+.banner{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("banner.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue; 
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 2rem;
+    padding-top: 200px;
+    justify-content: center;
+}
+.banner p{
+    font-size: 1.1rem;
+    justify-content: center;
+    word-wrap: normal;
+    text-align: center;
+}
+
+#btn{
+display: grid;
+width: 100%;
+color: black;
+gap: 15px;  
+grid-template-columns: auto 100px 100px auto;
+padding: 10px;
+}
+
+#up{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+#btn :hover{
+    background: transparent;
+    color: aliceblue;    
+    box-shadow: 0px 5px 5px 1px white;
+    
+}
+
+.heading{
+    text-align: center;
+    padding-left: 5%;
+    text-decoration: underline double rgba(0,0,0,0.2);
+    font-style: italic;
+    margin-top: 2% ;
+}
+
+
+#slider{
+    overflow: scroll;
+    margin-top: 20px;
+    /* position:absolute; */
+    display: flex;
+    max-height: fit-content;
+    /* border: 2px solid black; */
+    margin-bottom: 2%;
+}
+
+#slider::-webkit-scrollbar{
+    width: 0;
+}
+
+.item{
+    left: 200%;
+    line-height: 190px;
+    text-align: center;
+    margin: 0px 5px 10px 5px ;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 10px 0px black;
+    justify-content: center;
+    width: auto;
+    background-color: aliceblue;
+    height: 200px;
+    min-width: 200px;
+}
+.shift:hover{
+    border: 2px solid balck;
+    box-shadow: 0px 0px 10px 4px rgb(163, 160, 160);
+    width: 30px;
+}
+.shift{
+    position:absolute;
+    line-height: 200px;
+    text-align: center;
+    justify-content: center;
+    width: 20px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    height: 205px;
+    background-color: rgba(90, 85, 85, 0.5);
+    margin-top: 10px;
+}
+
+#bt{
+    margin-bottom: 5%;
+}
+
+#right{
+    position:relative;
+    float: right;
+    /* background-color: rgba(90, 85, 85, 0.5); */
+}
+
+
+
+.Scontainer{
+    display: grid;
+    position: relative;
+    max-height: auto;
+    width: auto;
+    gap: 20px;
+    padding: 0px 50px 0px 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    /* border: 2px solid black; */
+}
+
+.scard{
+    box-shadow: 0px 0px 10px 4px rgb(172, 168, 168);
+    /* border: 2px solid black; */
+    min-width: fit-content;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+.scard p{
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    position: relative;
+}
+
+.Fcontainer{
+    margin-top: 2%;
+    position: relative;
+    height: auto;
+    row-gap: 20px;
+    column-gap: 10px;
+    display: grid;
+    width: auto;
+    /* background:linear-gradient(rgba(163, 189, 238, 0.3),rgba(0,0,0,0.3)); */
+    overflow: hidden;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    /* border: 2px solid black; */
+}
+
+.feeditems{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.feeditems img{
+    box-shadow: 0px 0px 10px 4px rgb(172, 168, 168);
+
+    border-radius: 30%;
+}
+
+.feeditems p{
+    /* border: 2px solid black; */
+    text-shadow: 1px 5px 10px rgb(112, 108, 108);
+    font-size: 1rem;
+    padding-right: 10%;
+    padding-top: 20%;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.parallax {
+    /* The image used */
+    /* Set a specific height */
+    min-height: 250px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p2{
+    background-image: url("parllex.jpg");
+  }
+#p3{
+    background-image: url("parllex3.jpg");
+  }
+
+#b2{
+   
+    margin-top: 5%;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("prallax2.jpg") center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+#b2 h1{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#b2 button{
+    background: transparent;
+    height: 50px;
+    font-size: larger;
+    color: bisque;
+   border: 2px solid white;
+   width: 100px;
+}
+
+#b2 button:hover{
+    color:black;
+    border: 2px solid black;
+    background-color: rgba(230, 235, 246, 0.9);
+}
+
+@media only screen and (max-width: 771px){
+    .feeditems p {
+        font-size: 0.7rem;
+    }
+    .scard p{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width: 627px){
+    .feeditems p {
+        font-size: 0.5rem;
+    }
+    .scard p{
+        font-size: 0.5rem;
+        line-height: 10px;
+    }
+}
+
+@media only screen and (max-width: 413px){
+    .feeditems p {
+        font-size: 0.35rem;
+    }
+    .scard p{
+        font-size: 0.35rem;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .feeditems p {
+        font-size: 0.27rem;
+    }
+    .scard p{
+        font-size: 0.27rem;
+    }
+}
+
+
+
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: auto;
+    gap: 20px;
+    height: 30px;
+    justify-content: center;
+}
+
+.icon{
+    border-radius: 30%;
+    /* border: 2px solid black; */
+    width: 30px;
+    cursor: pointer;
+    box-shadow: 2px 1px 10px 2px rgb(148, 130, 130);
+    height: 30px;
+}
+.icon:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.fitem p{
+    text-align: center;
+    justify-content: center;
+}
+hr{
+   
+}
