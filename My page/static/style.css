@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: black;
+}
+
+ul{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    
+}
+
+a{
+    text-transform: capitalize;
+    color: rgb(217, 226, 226);
+    text-decoration: none;
+}
+
+#form{
+    text-align: center;
+    display: block;
+    margin: auto;
+    justify-items: center;
+    /* background-color: yellow; */
+}
+
+input,textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    
+
+}
